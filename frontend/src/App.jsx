@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import Counter from './features/counter/Counter'
 import Todos from './features/todos/Todos'
+import Quote from './features/quote/Quote'
 
 function App() {
   return (
@@ -10,7 +11,9 @@ function App() {
 
       {/* <Counter/> */}
 
-      <Todos/>
+      {/* <Todos/> */}
+
+      <Quote/>
     </>
   )
 }
